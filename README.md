@@ -2,6 +2,10 @@
 
 FrostLock Injection is a freeze/thaw-based code injection technique that uses Windows Job Objects to temporarily freeze (suspend) a target process, inject shellcode, and then seamlessly resume (thaw) it.
 
+Tested on:
+- Windows 11
+- Windows 10
+
 # 1. Introduction
 
 This whitepaper introduces a unique technique for code injection that leverages the freezing (suspension) and thawing (resuming) of a target process using Windows Job Objects. The idea came to me while experimenting with System Informer, where I noticed the functionality to freeze and resume processes.
