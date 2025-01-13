@@ -8,7 +8,7 @@
 
 #define XOR_KEY 0xAA
 
-// Decryption
+// Decryption function
 void decrypt(unsigned char* code, int size) {
     for (int i = 0; i < size; i++) {
         code[i] ^= XOR_KEY;
