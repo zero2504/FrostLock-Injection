@@ -165,7 +165,7 @@ int main()
     }
     else {
        
-        // Prozess einfrieren
+        // Freeze Process
         if (FreezeProcess(hProcess))
         {
             SetColor(FOREGROUND_BLUE);
